@@ -15,7 +15,7 @@
 .main {
     height: 100%;
     width: 100%;
-    display: flex;
+    display: highflex;
     flex-direction: column;
     background: linear-gradient(90deg, #001f3f, #007bff);
     align-items: center;
@@ -25,10 +25,10 @@
   }
 
 .photoborder{
-    height: 30vw;
-    width: 25vw;    
+    height: 35vw;
+    width: 30vw;    
     padding: 1vw;
-    border-radius: 50px;
+    border-radius: 60px;
     background-color: white;
 }
 
@@ -38,10 +38,10 @@
     object-fit: cover; 
     border-radius: 50px;
 }
-#name{
-    font-size: 3vw;
+#file{
+    font-size: 4vw;
     text-align: center;
-    color: white;
+    color: green;
 }
 
 #description{
